@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.Exponential;
+})();
 })();
 </script>
 ```
@@ -306,6 +308,7 @@ y = exponential.quantile( 1.9 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-exponential-ctor@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var exponential = new Exponential( 2.0 );
 
@@ -321,6 +324,7 @@ var s2 = exponential.variance;
 var y = exponential.cdf( 0.8 );
 // returns ~0.798
 
+})();
 })();
 </script>
 </body>
