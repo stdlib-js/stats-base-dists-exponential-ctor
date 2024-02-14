@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Exponential from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-exponential-ctor@esm/index.mjs';
+import Exponential from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-exponential-ctor@v0.2.0-esm/index.mjs';
 ```
 
 #### Exponential( \[lambda] )
@@ -292,7 +292,7 @@ y = exponential.quantile( 1.9 );
 <body>
 <script type="module">
 
-import Exponential from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-exponential-ctor@esm/index.mjs';
+import Exponential from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-exponential-ctor@v0.2.0-esm/index.mjs';
 
 var exponential = new Exponential( 2.0 );
 
