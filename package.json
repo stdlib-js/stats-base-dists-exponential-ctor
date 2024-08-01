@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/assert-is-positive-number": "^0.2.2",
-    "@stdlib/stats-base-dists-exponential-cdf": "^0.2.1",
+    "@stdlib/stats-base-dists-exponential-cdf": "^0.2.2",
     "@stdlib/stats-base-dists-exponential-entropy": "^0.2.2",
     "@stdlib/stats-base-dists-exponential-kurtosis": "^0.2.2",
     "@stdlib/stats-base-dists-exponential-logcdf": "^0.1.2",
